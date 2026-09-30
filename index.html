@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Deathcore</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="img/DeathcoreLogo.png" title="Deathcore Logo - CC0 Domínio Público / Autoria Própria"
+                alt="Logotipo do Deathcore" class="nav-img " loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item">
+    <a class="nav-link" href="#inicio">Início</a>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link" href="#galeria">Galeria</a>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link" href="#noticias">Notícias</a>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link" href="#contato">Contato</a>
+</li>
+            </ul>
+            <div id="acessibilidade" class="menu-acessibilidade">
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao"
+                    aria-expanded="false">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold"
+                        aria-label="Aumentar o tamanho da fonte"> A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold"
+                        aria-label="Diminuir o tamanho da fonte"> A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold"> <i
+                            class="bi bi-shadows"></i></button>
+
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+<div class="inicio-fundo d-flex justify-content-between align-items-center">
+
+    <div class="esquerda-conteudo">
+        <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas a</h1>
+
+        <img src="img/DeathcoreLogo2.png"
+            title="Deathcore Logo Secundária - CC0 Domínio Público / Autoria Própria"
+            alt="Logotipo secundário da Deathcore"
+            class="mb-3"
+            width="563"
+            height="278"
+            loading="lazy">
+
+        <a href="#deathcore" class="btn btn-primary btn-lg botao-inicio fw-semibold">
+            Quero conhecer!
+        </a>
+    </div>
+
+    <div class="vocalista-destaque">
+        <img id="imagem-vocalista"
+            src="img/Alex Terrible.png"
+            alt="Alex Terrible, vocalista da banda Slaughter to Prevail"
+            class="img-fluid img-inicio">
+
+        <div id="info-vocalista" class="info-vocalista">
+            <h3>Alex Terrible</h3>
+            <p>Slaughter to Prevail</p>
+        </div>
+    </div>
+
+</div>
+        </section>
+
+        <section id="deathcore" class="my-5 pt-6 secao-deathcore" tabindex="0"
+            aria-label="Seção explicativa sobre o Deathcore">
+            <div class="container d-flex align-items-center">
+                <img src="img/CaveiraVermelha.jpg"
+                    alt="A imagem apresenta um fundo escuro com uma caveira vermelha no centro, que parece ser iluminado suavemente a partir do topo. Esse efeito cria um brilho sutil, dando à imagem uma atmosfera misteriosa ou dramática. Não há elementos visuais como texto, objetos ou pessoas — apenas o jogo de luz e cor."
+                    title="Red Skull - CC0 Domínio Público / Pinterest" class="rounded-pill caveira-vermelha"
+                    width="273" height="331" loading="lazy">
+                <div class="col-5">
+                    <h2>O que foi o Deathcore</h2>
+                    <p class="p-2">Deathcore é uma fusão de estilos musicais que combina elementos do death metal com
+                        elementos do metalcore ou hardcore punk, ou ambos.</p>
+                    <p class="p-2">Os tradicionais guturais e grunhidos são comuns, vocais limpos são muito raros, e a
+                        maioria das bandas raramente os utiliza, são presentes apenas em certas ocasiões de músicas
+                        selecionadas. Deathcore é definido por breakdowns, metrancas, tremolo picking e riffs do death
+                        metal. Algumas bandas também incorporam solos de guitarra e riffs melódicos semelhantes aos de
+                        metalcore. Como em outros gêneros de metal extremo, os guitarristas de deathcore afinam suas
+                        guitarras em uma afinação mais baixa e/ou usam guitarras de sete cordas para alcançar um timbre
+                        mais pesado.</p>
+                    <p class="p-2"><strong>Fonte: </strong>Wikipédia</p>
+
+
+
+                </div>
+            </div>
+        </section>
+
+<section id="galeria" tabindex="0" aria-label="Seção de galeria com imagens de bandas Deathcore">
+
+    <h2 class="text-center pt-5">Galeria</h2>
+
+    <div class="container p-3 mt-3 fundo-galeria">
+
+        <div class="carrossel-galeria">
+
+            <button class="seta-galeria seta-esquerda" id="anterior-galeria"
+                aria-label="Imagem anterior">
+                &#10094;
+            </button>
+
+            <div class="imagem-galeria">
+                <img id="imagem-galeria"
+                    src="img/SlaughterToPrevail.jpg"
+                    alt="Integrantes da banda Slaughter to Prevail usando máscaras assustadoras"
+                    class="img-fluid rounded-5">
+
+                <div class="legenda-galeria">
+                    <h3 id="titulo-galeria">Slaughter to Prevail</h3>
+                    <p id="descricao-galeria">Banda de Deathcore conhecida por seus vocais extremos e breakdowns pesados.</p>
+                </div>
+            </div>
+
+            <button class="seta-galeria seta-direita" id="proxima-galeria"
+                aria-label="Próxima imagem">
+                &#10095;
+            </button>
+
+        </div>
+
+        <div class="indicadores-galeria" id="indicadores-galeria">
+            <button class="indicador-galeria ativo" aria-label="Ver imagem 1"></button>
+            <button class="indicador-galeria" aria-label="Ver imagem 2"></button>
+            <button class="indicador-galeria" aria-label="Ver imagem 3"></button>
+            <button class="indicador-galeria" aria-label="Ver imagem 4"></button>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="noticias" tabindex="0"
+    aria-label="Seção de notícias sobre Deathcore e música pesada">
+
+    <h2 class="text-center pt-5">Noticias</h2>
+
+    <div class="container py-5">
+
+        <div class="row g-4">
+
+            <!-- NOTÍCIA 1 -->
+            <article class="col-md-6 col-lg-4">
+
+                <div class="card-noticia">
+
+                    <div class="imagem-noticia">
+                        <img src="img/SuicideSilence.jpg"
+                            alt="Integrantes da banda Suicide Silence"
+                            loading="lazy">
+
+                        <span class="categoria-noticia">
+                            NOVO ÁLBUM
+                        </span>
+                    </div>
+
+                    <div class="conteudo-noticia">
+
+                        <span class="data-noticia">
+                            20 NOV 2026
+                        </span>
+
+                        <h3>
+                            GRACELESS
+                        </h3>
+
+                        <h4>
+                            Suicide Silence
+                        </h4>
+
+                        <p>
+                            O Suicide Silence prepara o lançamento de
+                            “Graceless”, novo álbum com 11 faixas que
+                            retoma elementos das raízes Deathcore da banda.
+                        </p>
+
+                        <a href="https://centurymedia.bandcamp.com/album/graceless-24-bit-hd-audio"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="link-noticia">
+                            Ler matéria →
+                        </a>
+
+                        <small class="fonte-noticia">
+                            Fonte: Century Media Records
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- NOTÍCIA 2 -->
+            <article class="col-md-6 col-lg-4">
+
+                <div class="card-noticia">
+
+                    <div class="imagem-noticia">
+                        <img src="img/SlaughterToPrevail.jpg"
+                            alt="Integrantes da banda Slaughter to Prevail"
+                            loading="lazy">
+
+                        <span class="categoria-noticia">
+                            DESTAQUE
+                        </span>
+                    </div>
+
+                    <div class="conteudo-noticia">
+
+                        <span class="data-noticia">
+                            SET 2026
+                        </span>
+
+                        <h3>
+                            STP EM ALTA
+                        </h3>
+
+                        <h4>
+                            Slaughter to Prevail
+                        </h4>
+
+                        <p>
+                            O Slaughter to Prevail continua entre os
+                            nomes de maior alcance do Deathcore, com cerca
+                            de 1,3 milhão de ouvintes mensais no Spotify.
+                        </p>
+
+                        <a href="https://open.spotify.com/artist/24Oiw7BlvO1BETecDLJt6m"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="link-noticia">
+                            Ver no Spotify →
+                        </a>
+
+                        <small class="fonte-noticia">
+                            Fonte: Spotify / dados de audiência
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- NOTÍCIA 3 -->
+            <article class="col-md-6 col-lg-4">
+
+                <div class="card-noticia">
+
+                    <div class="imagem-noticia">
+                        <img src="img/BringMeTheHorizon.jpg"
+                            alt="Integrantes da banda Bring Me The Horizon"
+                            loading="lazy">
+
+                        <span class="categoria-noticia">
+                            EVENTO
+                        </span>
+                    </div>
+
+                    <div class="conteudo-noticia">
+
+                        <span class="data-noticia">
+                            05 SET 2026
+                        </span>
+
+                        <h3>
+                            ROCK IN RIO
+                        </h3>
+
+                        <h4>
+                            Bring Me The Horizon
+                        </h4>
+
+                        <p>
+                            O Bring Me The Horizon subiu ao Palco Mundo
+                            no Rock in Rio 2026, em uma das principais
+                            apresentações de rock do festival.
+                        </p>
+
+                        <a href="https://rockinrio.com/rio/pt-br/line-up/bring-me-the-horizon/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="link-noticia">
+                            Ver matéria →
+                        </a>
+
+                        <small class="fonte-noticia">
+                            Fonte: Rock in Rio
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill tamanho-botao">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse minhas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Braian Toscano. Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
